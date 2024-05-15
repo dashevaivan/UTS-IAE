@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  artikelapp:
+    build: ./ArtikelApp
+    ports:
+      - "5003:5003"
+  postingapp:
+    build: ./PostingApp
+    ports:
+      - "5000:5000"
+  userapp:
+    build: ./UserApp
+    ports:
+      - "5002:5002"
+  mainapp:
+    build: ./MainApp
+    ports:
+      - "5004:5004"

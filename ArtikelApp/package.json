@@ -1,0 +1,17 @@
+{
+  "name": "artikelapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "artikel.js",
+  "scripts": {
+    "start": "node artikel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.19.2"
+  }
+}
+

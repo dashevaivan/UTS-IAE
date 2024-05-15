@@ -1,0 +1,16 @@
+{
+  "name": "postingapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "posting.js",
+  "scripts": {
+    "start": "node user.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.19.2"
+  }
+}

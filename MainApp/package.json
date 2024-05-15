@@ -1,0 +1,16 @@
+{
+  "name": "mainapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainapp.py",
+  "scripts": {
+    "start": "python mainapp.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "express": "^4.19.2"
+  }
+}
